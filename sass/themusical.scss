@@ -1,0 +1,67 @@
+// =======================
+// index.scss
+// =======================
+
+.index {
+	.hero {
+		background-image: url("../images/show/victoria.gif");
+		background-size: cover;
+	}
+
+	#mission {
+		background-color: #2C5A33;
+	}
+
+	.video_section {
+		background-color: #0E0E0E;
+		color: white;
+		.video_container {
+			padding-top: 0 !important;
+			padding-bottom: 32px !important;
+		}
+		.har_simple_block_mini {
+			padding-bottom: 0px;
+		}
+	}
+
+	.gallery {
+		background-color: #0E0E0E !important;
+		padding-top: 32px;
+	}
+
+	#photo {
+		background-color: #0E0E0E;
+		color: white;
+	}
+
+	#playbill_section {
+		.playbill {
+			background-image: url("../images/show/playbill.png");
+			background-size: 100% 100%;
+			background-repeat: none;
+		}
+
+		.playbill_info {
+			background-color: #0E0E0E;
+		}
+	}
+
+	#bandcamp_section {
+		.bandcamp {
+			background-image: url("../images/show/show_3.jpg");
+			background-size: 100% 100%;
+			background-repeat: none;
+		}
+
+		.bandcamp_info {
+			background-color: #0E0E0E;
+		}
+	}
+
+	#contacts {
+		background-image: url("../images/terminal_background.jpg");
+		.btn {
+			margin-bottom: 32px;
+		}
+	}
+}
